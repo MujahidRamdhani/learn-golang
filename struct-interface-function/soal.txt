@@ -1,0 +1,48 @@
+Soal Latihan
+Buatlah program dalam Golang yang mencakup poin-poin berikut:
+Soal 1: Bangun Datar dan Bangun Ruang
+Buat struct Lingkaran dengan atribut JariJari (float64).
+Buat struct Kubus dengan atribut Sisi (int).
+Implementasikan method untuk menghitung:
+Luas dan keliling untuk Lingkaran
+Luas permukaan dan volume untuk Kubus
+Buat interface HitungBangunDatar untuk Lingkaran dan HitungBangunRuang untuk Kubus.
+Soal 2: Data Handphone
+Buat struct Handphone dengan atribut:
+Merk (string)
+Model (string)
+TahunRilis (int)
+Warna ([]string)
+Buat method TampilkanData() yang mengembalikan string dengan format berikut:
+yaml
+Copy
+Edit
+Merk: Samsung
+Model: Galaxy S23
+Tahun Rilis: 2023
+Warna: Hitam, Biru, Putih
+Gunakan interface DataHP untuk method ini.
+Soal 3: Fungsi dengan Interface Kosong
+Buat fungsi LuasLingkaran yang menerima parameter:
+JariJari (float64)
+TampilkanTeks (bool)
+Jika TampilkanTeks bernilai true, kembalikan string dengan format:
+nginx
+Copy
+Edit
+Luas lingkaran dengan jari-jari 10 adalah 314.16
+Jika TampilkanTeks bernilai false, kembalikan nilai numerik luas lingkaran tersebut.
+Soal 4: Pengolahan Data dengan Interface Kosong
+Buat 2 variabel dengan tipe interface{} yang berisi dua slice angka:
+go
+Copy
+Edit
+var angka1 interface{} = []int{2, 4, 6}
+var angka2 interface{} = []int{8, 10, 12}
+Gabungkan kedua slice ke dalam satu slice baru.
+Hitung jumlah semua angka dalam slice baru.
+Cetak output dalam format:
+nginx
+Copy
+Edit
+Hasil penjumlahan dari 2 + 4 + 6 + 8 + 10 + 12 = 42
