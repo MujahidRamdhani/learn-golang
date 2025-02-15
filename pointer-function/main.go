@@ -63,7 +63,8 @@ func main() {
 
 	addBooksData("The Lord of the Rings", "J.R.R Tolkien", "2012", &books)
 	addBooksData("Harry Potter", "J.K. Rowling", "1997", &books)
-	for i, book := range books {
-		fmt.Printf("%d. Title: %s, Author: %s, Year: %s\n", i+1, book["title"], book["author"], book["year"])
-	}
+	
+	// for i, book := range books {
+	// 	fmt.Printf("%d. Title: %s, Author: %s, Year: %s\n", i+1, book["title"], book["author"], book["year"])
+	// }
 }

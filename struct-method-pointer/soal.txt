@@ -1,0 +1,59 @@
+Soal Latihan
+Soal 1: Struct Buah
+Buatlah struct Buah yang memiliki field:
+Nama (string)
+Warna (string)
+AdaBijinya (bool)
+Harga (int)
+Buat beberapa objek dari struct tersebut dan tampilkan datanya.Contoh Output:
+yaml
+Copy
+Edit
+Nama: Apel, Warna: Merah, Ada Bijinya: true, Harga: 10000
+Nama: Pisang, Warna: Kuning, Ada Bijinya: false, Harga: 5000
+Soal 2: Struct Bangun Datar dengan Method
+Buatlah struct berikut:
+Segitiga dengan field Alas dan Tinggi
+Persegi dengan field Sisi
+PersegiPanjang dengan field Panjang dan Lebar
+Setiap struct harus memiliki method hitungLuas() untuk menghitung luasnya.Contoh Output:
+yaml
+Copy
+Edit
+Luas Segitiga: 10
+Luas Persegi: 16
+Luas Persegi Panjang: 35
+Soal 3: Struct Handphone dengan Pointer
+Buatlah struct Handphone dengan field:
+Name (string)
+Brand (string)
+Year (int)
+Colors (slice of string)
+Tambahkan method addColor() yang menggunakan pointer untuk menambahkan warna ke Colors.Contoh Output:
+yaml
+Copy
+Edit
+Phone data:
+Name: New Phone
+Brand: A Brand
+Year: 2023
+Available Colors: [blue red green]
+Soal 4: Struct Movie dengan Slice of Struct
+Buatlah struct Movie dengan field:
+Title (string)
+Genre (string)
+Duration (int)
+Year (int)
+Buat fungsi tambahDataFilm() untuk menambahkan data film ke dalam slice of struct.Contoh Output:
+yaml
+Copy
+Edit
+1. Title: LOTR
+   Duration: 120 minutes
+   Genre: Action
+   Year: 1999
+
+2. Title: Avengers
+   Duration: 120 minutes
+   Genre: Action
+   Year: 2019
